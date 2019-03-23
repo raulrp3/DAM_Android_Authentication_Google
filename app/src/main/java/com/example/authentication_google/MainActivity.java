@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements
 
     private void configureSignIn(){
         GoogleSignInOptions options = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("395769353381-l4mjgu12sfuugrhot2455cojgina1jqv.apps.googleusercontent.com")
+                .requestIdToken(getString(R.string.default_web_api_client))
                 .requestEmail()
                 .build();
 

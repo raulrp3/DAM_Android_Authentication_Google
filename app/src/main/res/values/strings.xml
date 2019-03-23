@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Authentication_Google</string>
+    <string name="default_web_api_client">395769353381-l4mjgu12sfuugrhot2455cojgina1jqv.apps.googleusercontent.com</string>
 </resources>
